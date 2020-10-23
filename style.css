@@ -107,7 +107,7 @@ body {
 .download {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    
     align-items: center;
     padding: 1rem;
 }
@@ -118,11 +118,11 @@ body {
     background-size: cover;
 }
 
-.app-download:nth-child(1) {
-    background-image: url('./imagem/logo-apple-store.png');
-}
-.app-download:nth-child(2) {
-    background-image: url('./imagem/getitgoogle.png');
+
+
+.app-download img {
+    height: 3rem;
+    
 }
 
 /*media queries */
